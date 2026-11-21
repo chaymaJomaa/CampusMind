@@ -1,0 +1,48 @@
+
+@'
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Variables et secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Bases de données locales
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Modèles entraînés et fichiers volumineux
+*.joblib
+*.pth
+*.pt
+*.onnx
+
+# Documents personnels et fichiers temporaires
+*.pdf
+*.zip
+*.log
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
+.idea/
+'@ | Set-Content -Encoding utf8 .gitignore

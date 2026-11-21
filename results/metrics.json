@@ -1,0 +1,10 @@
+{
+    "total_scenarios": 400,
+    "evaluated_scenarios": 240,
+    "excluded_scenarios": 160,
+    "agreements": 211,
+    "disagreements": 29,
+    "agreement_rate": 87.92,
+    "avg_rule_time_ms": 0.001317,
+    "avg_ml_time_ms": 66.295612
+}
